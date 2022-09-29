@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in </title>
+    <style>
+       *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+
+      }
+    
+      #sig{
+        background-color: white;
+        width: 30%;
+        margin: auto;
+        /* padding: 10%; */
+        
+
+      }
+   
+      input{  
+         width : 400px;
+         font-size: 14px;
+         display: block;
+         margin: 25px 0;
+          padding: 0 10px;
+          height: 50px;
+        margin-right: 130px;
+      }
+      #simg{
+        width: 12%;
+        margin-top: 10px;
+        align-items: center;
+        /* margin-left: 600px; */
+        display: block;
+        margin: auto;
+        padding: 10px 0px 10px 0px;
+      
+      }
+      #sf{
+        border: 0.1px solid grey;
+      }
+      #p1{
+        font-size: 14px;
+        color: gray;
+        margin-top: -21px;
+      }
+      #p2{
+        margin-top: 13px;
+        color: gray;
+      }
+     #p3{
+       text-align: center;
+       color: grey;
+       
+      margin-top: 20px;
+     }
+     #p3>a{
+      text-decoration: none;
+      color: teal;
+     }
+     #p4{
+       text-align: center;
+       color: grey;
+       margin-top: 13px;
+     }
+     #apl{
+        width:5%;
+        
+        /* display: block; */
+        padding-top: 11px;
+        margin: auto;
+        display: flex;
+        
+       
+        
+     }
+     #bx1{
+        width: 5%;
+        margin-top: -11px;
+     }
+     
+  
+  #p2>a{
+    text-decoration: none;
+    margin: auto;
+    width: 50%;
+    color: teal;
+
+  }
+     #p9{
+      text-align: center;
+
+     }
+     #ne1{
+    background-color:rgb(108, 34, 5) ;
+    border: none;
+    color: white;
+    border-radius: 20px;
+  }
+  #ne2{
+    background-color:rgb(108, 34, 5) ;
+    border: none;
+    color: white;
+    border-radius: 20px;
+  }
+  #ne1:hover{
+    transform: scale(1.1);
+  }
+  #sf{
+    border: 1 px solid gray;
+  }
+
+  #h2{
+     text-align: center;
+  }
+    </style>
+
+</head>
+<body>
+    <img id="simg"    src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:60/https://www.filepicker.io/api/file/mC6mvXVbSJyz3yjHPBVn" alt="" srcset="">
+    
+    <div id="sig">
+        <form onsubmit="chk(event)" >
+            <h1 id="h2">Log in</h1>
+            <input placeholder="Email adress" id="email" type="text">
+            <input placeholder="password" id="password" type="password">
+            <!-- <input type="checkbox"> -->
+
+            <input id="ne1" type="submit" value="Log in">
+            <input id="ne2"  value="Log in with teachable">
+            <p id="p3"><a href="">Forgot Password?</a></p>
+            <p id="p3"> Need an Account <a href="signup.html">      Create one</a> </p>
+            <p id="p4">or continue with</p>
+           
+
+        </form>
+
+    </div>
+</body>
+<script src="signin.js"></script>
