@@ -8,6 +8,10 @@
     <script type="module" src="./marketing_suite.js" defer></script>
     <link rel="stylesheet" href="./marketing_suite.css" />
   </head>
+  <script
+    src="//code.tidio.co/72jaehjm3lmf8jdzyxqnflsvennssvqo.js"
+    async
+  ></script>
   <body>
     <nav>
       <div id="one">
@@ -15,13 +19,14 @@
           src="https://coschedule.com/img/product/coschedule-marketing-suite-logo-color.svg"
           alt=""
         />
-        <h4>Explore</h4>
+        <h4 id="explore">Explore</h4>
       </div>
 
       <div id="two">Get a Demo</div>
     </nav>
 
     <header>
+      <div id="navorganize"></div>
       <div>
         <h1>Take Control Of Your Process And Bring Your Team Together.</h1>
         <i>Complete more work. Deliver projects on time. Prove your value.</i>
@@ -33,36 +38,7 @@
         </p>
       </div>
     </header>
-    <div id="organizers">
-      <div>
-        <img
-          src="https://coschedule.com/img/product/marketing-calendar-product-icon.png"
-          alt=""
-        />
-        <h4>Calender Organizer</h4>
-      </div>
-      <div>
-        <img
-          src="https://coschedule.com/img/product/content-organizer-product-icon.png"
-          alt=""
-        />
-        <h4>Content Organizer</h4>
-      </div>
-      <div>
-        <img
-          src="https://coschedule.com/img/product/work-organizer-product-icon.png"
-          alt=""
-        />
-        <h4>Work Organizer</h4>
-      </div>
-      <div>
-        <img
-          src="https://coschedule.com/img/product/asset-organizer-product-icon.png"
-          alt=""
-        />
-        <h4>Asset Organizer</h4>
-      </div>
-    </div>
+    <div id="organizers"></div>
 
     <section id="body">
       <div id="sec-1">
@@ -77,14 +53,12 @@
           </p>
         </div>
         <video
-          autoplay
+          autoplay="'true"
           loop
           src="https://media.coschedule.com/uploads/2021/08/marketing-suite_output-gap_19.mp4"
-        >
-          videp
-        </video>
+        ></video>
       </div>
-      <div id="sec-2">
+      <div class="sec-2">
         <h1>Start completing more marketing with Marketing Suite</h1>
         <button>Request Your Demo</button>
         <a href="">Or Get Started For Free</a>
@@ -269,19 +243,19 @@
             <p>How many people are on your marketing team?</p>
             <div>
               <button>-</button>
-              <div>0</div>
+              <div class="val">0</div>
               <button>+</button>
             </div>
             <p>How many projects does your team complete each week?</p>
             <div>
               <button>-</button>
-              <div>0</div>
+              <div class="val">0</div>
               <button>+</button>
             </div>
             <p>How many social profiles does your team manage?</p>
             <div>
               <button>-</button>
-              <div>0</div>
+              <div class="val">0</div>
               <button>+</button>
             </div>
             <button>Calculate Your Savings</button>
@@ -325,6 +299,18 @@
           </div>
         </div>
       </div>
+
+      <div class="sec-2 sec-8">
+        <h1>Take Control Of Your Process And Bring Your Team Together</h1>
+        <p>
+          Complete more work. Deliver projects on time. And prove your marketing
+          value. All with the CoSchedule Marketing Suite.
+        </p>
+        <button>Request Your Demo</button>
+        <a href="">Or Get Started For Free</a>
+      </div>
     </section>
+
+    <footer></footer>
   </body>
 </html>
