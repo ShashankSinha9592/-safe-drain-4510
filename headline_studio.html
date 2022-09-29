@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./headline_studio.css">
+</head>
+
+<body>
+
+    <div id="whole_page">
+        <div id="left_long">
+            <!-- <----------------------------------------------------------------------------->
+            <div id="navbar">
+                <div id="left">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///9hi+BeieB8nuVbh9+luuyeteqGpeZXhd9Sgt5diN9Rgd6ove2Mqef7/P5xluPE0vK3yPBqkeLT3fXN2fR2meOXsem+zfGww+7s8ftrkuKSrejm7Prc5Pf3+f7X4Pb/kozFAAAGGklEQVR4nO3da3eiMBAG4CVGSUARi9dW8f//y912bTdIkklYnFzOvB+7OT3zLJIbwf76RaFQKBQKhUKhUCgUCoVCoVAoFAqFQpmQe+gCXp39e+gKXpxrvQhdwmvTF1Xmwm3F8hZueJG3cC2KvIVtXeQtvH0CcxZeeJG3sHljmQsXfy9hvsKjKPIW7mSRt7D7AWYqvNZF3sK+YJkLt1WRt3DDi7yFa1nkLWyHwPyEtydgdsILLzIXvrHMhYvRJUxNeLmfzqtNeTT880qMgAkJ+265kFIIzituKHr33MskJGza8o+N2YvudMA0hNejFPBE7KoFpiC8biR3KHow3U5J2Czryqnow6hZGsJ7Ne7/tUVvNO1SEC5rx6LX+pswemGpGd+0RT9Pt1MRHgyfvFHRo+l2IsKt6601nm6nISyNdT8XPZ5uJyHUzTH1RWum2ykI79peVFf00fxfEbOwMcxQxkVrp9sJCNe2C6MWvbdc65iFvbVupWjDdDt+4dKx8+iZrRuNWNhYgUrRpul29MKTY/doHjJjEvbX/em8PLbqzw72z9530dbuKAphc1+XRf219yKXys8vbgPACexlwgqb/YbLn60Xrgpb4Nr8LfoGjRNhhdcVH2y9DIRHoP/4Kto63Q4uHG+9DIRbYAj4LLqxTrcDC5vVeOtFFTbQ/fVZ9AIeJ4IJO675fKlCcJ7yp+gPl240kHClrV8V7qHqWenWjQYRNgd9+aoQGO+/mjsDsYX9u6E2VXj2qD82YV+Y+gdVuE5YaJ4oq0L7wiJq4Ye59DyElm3bPIS9rYvMQmh8dpKL0L4UmCpk4OQNT1haa5koZIcVREQTApPNiULRg4MnmhAoe5pQ3uDGaELgwzRJKFuHxljCO7AYmCKUa5fGWELodpkg5BunxlhCYH9wgrDaujVGEjbQks9byIo+KqHtQfs0obw6NkYSQjug3kLZuTZGEoLLdk+h3Dk3RhKu5hXylXtjJOEGmj16CdnWpzGOsIQ2qP2Ei4mNX5gFCUlIQhKSkIQk9BOCUzwSkjC4EC66JCEJSUhCEgJC+HFS4sL+DWibvBA+u5240Pq4f4qw1BUUUOhydttLWG3iErYuR5v9hB9RCcEnOP5Cvo5JeHE7F+slFDtTUQGErme3/YT7iIT2VyUnCuUlHiHwquREIUMBOgmhVyWnCbEOKsDCte212P8QcpyOBhYy8PnbROH38/7gQttrv/8jZFjfyA4LfeIhRBoNQwr7zIXKkYZMhTXWJQwlFDiz7nBCVjRxCuGRxVFY39CAfkJw8HcUyjMe0Ecor/Cy3UkocLYvvIV1Cz9dU7dejELTVw+GFn72frBQ2XoxCQXOFpu38OvsNnyQURnHDUJp+nrMwMLq8MtJqHQhWiGTJ2Sgo5Cx3kkolC/R0AnFAWfnwl/4WMvBQuXPcI2FHG094S2sH2e3QaE623wSMsHOeBMZT+HPAA0KC+U3q0LG6zf0G/ARB6H46f0g4eBJxLeQcSG3Z6QtC01goTJAQ0KhXqdVLYSQoiiXLX73ogTeiXr/d/dAwsEeb7dr2+4a5NYbxGE38V9jQMgO4RzmzHnqS4TqTKyZU8jDfyQ1mVGI9DzQNzMKZZSXcEZhkCmZQ2YTqq88RZXZhHW4WYs9cwnx132umWnEF9grd/fAQmXZbhTi7p75BRYqXaRJKHHO/kwLKFQ3JgzCOs6h/hFYqGxMaIUV0rmYqQGF6opIJ5QLtOdk0wLfh0rjsVAUrfFXRxJIODj1snreXCp2cc5F1UDCwdeXqkIm5CLuG/ARSCg6pfFDyBgXYnEKuvviHlCofgyPtRBSyvfy3EXevSgBhMOTyl27726JXLqfAEKZxK1mjV3ICvg3xB67MNZ1u0+Aaxi6vBliFcroJywOsQmr4H+8YI7YhEhHzV8ci7BOf6T4jFkoo17XuscojHhvyS8mIfqxl5fFIKwxz9a9Nlohi3zrxSs6odhmMUw8MhbyOB/lTs6TkAl+Tmdx6xRVyLjcnuLfWvLMt5BVQr6vEY9fo+UgOP/ae/kIe67nddmdz7t9cnsvFAqFQqFQKBQKhUKhUCgUCoVCoVAowfMb4/xVmUBj6x4AAAAASUVORK5CYII="
+                        alt="">
+
+                </div>
+                <div id="middle">
+                    <h2 id="h1">Headline</h2>
+                    <h2 id="h2">Studio</h2>
+                </div>
+                <div id="middle_right">
+                    <a href="#">Features</a>
+                    <a href="#">Studio Pro</a>
+                    <a href="#">Sign In</a>
+
+                </div>
+
+            </div>
+            <!-- <---------------------------------------------------->
+
+            <div id="box1">
+                <p id="box1_heading">Write better headlines that will boost your traffic.</p>
+                <p id="box1_p">Eliminate guesswork and outperform your competition with Headline Studio.</p>
+                <img src="https://coschedule.com/img/headline-studio/headline-studio-screen.png" alt="">
+
+            </div>
+
+            <!-- <-------------------------------------------------->
+
+            <div id="box2">
+                <h1>Want people to read your content?</h1>
+                <div>
+                    <p>They’ll start with your headline. And that’s as far as they’ll get.</p>
+                    <p>If your headline doesn’t convince your readers to take action, it’s meaningless.</p>
+                </div>
+
+                <div id="box2_son">
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/4436/4436481.png" alt="">
+                        <h3>Stop wasting time on headlines that don’t drive traffic.</h3>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/6711/6711656.png" alt="">
+                        <h3>Finally know how to write better headlines & drive maximum traffic.</h3>
+                    </div>
+                </div>
+            </div>
+<!-- <==================================================================> -->
+            <div id="box3">
+                <img src="https://coschedule.com/img/headline-studio/quotation-green.svg" alt="">
+                <p>On average, 5x as many people read the headline as read the body copy. When you’ve written your headline, you’ve spent eighty cents out of your dollar.</p>
+                <h3>DAVID OGILVY</h3>
+            </div>
+
+
+        </div>
+
+        <!-- c<---------------------------------------------------------------------------->
+
+
+        <div id="right_fixed">
+            <h1>Start Using Headline Studio For Free</h1>
+            <div id="right_fixed_inner1">
+                <p>Full name</p>
+                <input type="text" placeholder="Full name"><br>
+                <p> Email Address</p>
+                <input type="text" name="" id="" placeholder="Work email address"><br>
+                <p> Password</p>
+                <input type="text" name="" id="" placeholder="Password "><br>
+                <button>Get Started Now</button><br>
+            </div>
+            <p id="pp">OR</p>
+            <div id="right_fixed_inner2">
+                <button><img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">Sign up with
+                    Google</button><br>
+                <button><img src="https://cdn-icons-png.flaticon.com/128/1312/1312139.png" alt="">Sign up with
+                    Facebook</button><br>
+                <button><img src="https://cdn-icons-png.flaticon.com/128/0/747.png" alt="">Sign up with
+                    Apple</button><br>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
