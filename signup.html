@@ -10,7 +10,14 @@
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
+        background-color: F8F8F8;
+        font-family: "MuseoSans-300",sans-serif;
 
+    
+      }
+      #body{
+        background-color: rgb(151, 24, 24)
+        
       }
       #h1{
     
@@ -18,20 +25,26 @@
      
    }
    input{  
-       width : 510px;
+       width : 360px;
        font-size: 16px;
        display: block;
        margin: 8px 0;
         padding: 0 13px;
-        height: 55px;
+        height: 39px;
       margin-right: 160px;
       margin: auto;
+      border-radius: 4px;
     }
     #saf{
         background-color: white;
-        width: 40%;
+        width: 30%;
+        height: auto;
         margin: auto;
-        padding-top: 100px;
+        margin-top: 45px;
+        padding-top: 40px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-top: 25px;
         
       }
 
@@ -39,8 +52,8 @@
        text-align: center;
        
     }
-    #sign_up{
-        width : 510px;
+    #signup{
+        width : 290px;
        font-size: 16px;
        display: block;
        margin: 31px 0;
@@ -48,10 +61,18 @@
         height: 55px;
       margin-right: 160px;
       margin-top: 15px;
+      margin: auto;
+      margin-top: 35px;
+      border-radius: 30px;
+      color: white;
+      font-size: medium;
+      font-weight: 900;
+      background-color:rgb(209,99,78);;
+      font: 17px;
      
     }
     #btn_main>button{
-        width : 350px;
+        width : 150px;
         height: 38px;
        font-size: 16px;
        display: block;
@@ -72,14 +93,40 @@
         text-align: center;
     }
     #p12{
-        color: gray;
         margin-left: 45px;
+        padding-top: 45px;
     }
     #pp1{
         text-align: center;
         color: gray;
         width: 82%;
     }
+    #sig1{
+        text-align: center;
+    }
+    #simg1{
+        width: 14%;
+        margin-top: 10px;
+        align-items: center;
+        /* margin-left: 600px; */
+        display: block;
+        margin: auto;
+        padding: 10px 0px 10px 0px;
+      
+      }
+      #p13{
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 40px;
+        color: grey;
+      }
+      #p13>a{
+    text-decoration: none;
+    margin: auto;
+    width: 50%;
+    color: rgb(209,99,78);
+
+  }
  
     
    
@@ -87,18 +134,21 @@
 
 </head>
 <body>
+    <img id="simg1"    src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:60/https://www.filepicker.io/api/file/mC6mvXVbSJyz3yjHPBVn" alt="" srcset="">
         <div id="saf">
+            <h1 id="sig1">Sign Up</h1>
             <form>
-                <h1 id="h1">Create My Marketing Calendar</h1>
-                <p id="p1">Free for life. No credit card required.</p>
+                <!-- <h1 id="h1">Create My Marketing Calendar</h1>
+                <p id="p1">Free for life. No credit card required.</p> -->
                 <p id="p12">Full name</p>
                 <input type="text" id="name" placeholder="Enter Your Name">
                 <p  id="p12"> Email Address</p>
                 <input type="text" id="email" placeholder="Enter Email">
                 <p  id="p12">Password</p>
                 <input type="text" id="password" placeholder="Create Password">
-                <button onclick="signUp()" id="sign_up">Get Started Now</button>
-            <h3 id="saf1">OR</h3>
+                <button id="signup" onclick="signUp()" >Sign up</button>
+                <p id="p13">ALready have an account <a href="login.html">              Log in</a></p>
+            <!-- <h3 id="saf1">OR</h3>
             <div id="btn_main">
                 <button><img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">Sign up with
                     Google</button><br>
@@ -108,9 +158,9 @@
                     Apple</button><br>
             </div>
              <p id="pp1">
-             By clicking "Get Started Now", you agree to CoSchedule’s <a href=""> terms of survice</a> , <a href=""> end user argument</a>, <a href=""> and privacy policy</a>; you are 16 years or older; and you will receive information from CoSchedule from which you can opt out at any time.</p>
+             By clicking "Get Started Now", you agree to CoSchedule’s <a href=""> terms of survice</a> , <a href=""> end user argument</a>, <a href=""> and privacy policy</a>; you are 16 years or older; and you will receive information from CoSchedule from which you can opt out at any time.</p> -->
         </form>
-    </div>
+    <!-- </div> -->
     </div>
 </body>
 <script src="signup.js"></script>

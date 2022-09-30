@@ -18,22 +18,24 @@
         background-color: white;
         width: 30%;
         margin: auto;
-        /* padding: 10%; */
-        
-
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding-top: 20px;
+    
       }
    
       input{  
-         width : 400px;
+         width : 360px;
          font-size: 14px;
          display: block;
-         margin: 25px 0;
           padding: 0 10px;
-          height: 50px;
-        margin-right: 130px;
+          height: 40px;
+        margin: auto;
+        margin-bottom: 34px;
+        border-radius: 4px;
       }
       #simg{
-        width: 12%;
+        width: 17%;
         margin-top: 10px;
         align-items: center;
         /* margin-left: 600px; */
@@ -57,12 +59,14 @@
      #p3{
        text-align: center;
        color: grey;
+       margin-left: 210px;
+       margin-top: -60px;
+       padding-bottom: 20px;
        
-      margin-top: 20px;
      }
      #p3>a{
       text-decoration: none;
-      color: teal;
+      color: rgb(209,99,78);
      }
      #p4{
        text-align: center;
@@ -95,21 +99,36 @@
   }
      #p9{
       text-align: center;
+      padding-bottom: 30px;
 
      }
      #ne1{
     background-color:rgb(108, 34, 5) ;
     border: none;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
+    height: 60px;
+    margin-top: 35px;
+    margin-top: 30px;
+    background-color: rgb(209,99,78);
+    font-size: medium;
+    font-weight: bolder;
   }
   #ne2{
     background-color:rgb(108, 34, 5) ;
     border: none;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 20px;
   }
   #ne1:hover{
+    transform: scale(1.1);
+  }
+  #ne2:hover{
     transform: scale(1.1);
   }
   #sf{
@@ -118,6 +137,36 @@
 
   #h2{
      text-align: center;
+     margin-top: 40px;
+     padding-bottom: 40px;
+  }
+  #pm1{
+    margin-left: 45px;
+    color: grey;
+    padding-bottom: 5px;
+  }
+  #c1{
+    width:19px;
+    margin-top: -19px;
+    margin-left: 45px;
+  }
+  #p45{
+   color: gray;
+   margin-left: 70px;
+   margin-top: -65px;
+   padding-bottom: 40px;
+  }
+  #p9>a{
+    text-decoration: none;
+    margin: auto;
+    width: 50%;
+    color: rgb(209,99,78);
+
+  }
+  #div1{
+    border: 1px solid gray;
+    width: 360px;
+    margin-left: 45px;
   }
     </style>
 
@@ -128,19 +177,24 @@
     <div id="sig">
         <form onsubmit="chk(event)" >
             <h1 id="h2">Log in</h1>
+            <p id="pm1">Email</p>
             <input placeholder="Email adress" id="email" type="text">
+            <p id="pm1">Password</p>
             <input placeholder="password" id="password" type="password">
-            <!-- <input type="checkbox"> -->
+            <input id="c1" type="checkbox">
+            <p id="p45">Remember me</p>
+            <p id="p3"><a href="">Forgot Password?</a></p>
 
             <input id="ne1" type="submit" value="Log in">
-            <input id="ne2"  value="Log in with teachable">
-            <p id="p3"><a href="">Forgot Password?</a></p>
-            <p id="p3"> Need an Account <a href="signup.html">      Create one</a> </p>
-            <p id="p4">or continue with</p>
+            <div id="div1"></div>
+            <input id="ne2"  type="submit" value="Log in with teachable">
+            <p id="p9">Need an Account <a href="signup.html">                  Sign Up</a></p>
+            <!-- <p id="p3"> Need an Account <a href="signup.html">      Create one</a> </p>
+            <p id="p4">or continue with</p> -->
            
 
         </form>
 
     </div>
 </body>
-<script src="signin.js"></script>
+<script src="login.js"></script>
