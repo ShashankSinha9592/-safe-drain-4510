@@ -22,7 +22,7 @@ const last =()=>{
     <span class="insta"><i class="fa-brands fa-instagram"></i></span>
     <span class="linke"><i class="fa-brands fa-linkedin"></i></span>
     <span class="twitt"><i class="fa-brands fa-twitter"></i></span>
-    <span class="fak"><i class="fa-brands fa-facebook"></i></span>
+    <span class="fac"><i class="fa-brands fa-facebook"></i></span>
  </div>`
 }
 export {sort,last, footer}
