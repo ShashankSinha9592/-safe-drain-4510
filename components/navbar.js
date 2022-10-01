@@ -160,7 +160,7 @@ const navbar=()=>{
         </div>
     </li>
     </li>
-    <li class="price"><a href="">Pricing</a></li>
+    <li class="price"><a href="./price.html">Pricing</a></li>
 </div>
 
 
