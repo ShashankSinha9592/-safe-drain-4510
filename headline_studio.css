@@ -3,7 +3,7 @@
     padding: 0px;
 }
 #whole_page{
-    border:1px solid black;
+   
     width:100%;
     height:auto;
     display: flex;
@@ -23,7 +23,7 @@
 }
 /* <--------------------------------------------------------> */
 #navbar{
-    border: 1px solid black;
+   
     width:72.2%;
     height:60px;
     display: flex;
@@ -152,9 +152,10 @@ margin-top: 50px;
     border: none;
     margin-top: 20px;
     font-family: sans-serif;
+    padding: 10px;
 }
 #right_fixed>#right_fixed_inner2>button>img{
-    height: 60%;
+    height: 80%;
 }
 
 
