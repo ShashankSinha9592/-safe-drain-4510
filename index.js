@@ -12,7 +12,7 @@ last_div.innerHTML = last();
 
 let heading_div = document.querySelector(".heading");
 heading_div.addEventListener("click", () => {
-  window.location.href = "navbar.html";
+  window.location.href = "index.html";
 });
 
 document.querySelector(".price").addEventListener("click", () => {
@@ -20,7 +20,7 @@ document.querySelector(".price").addEventListener("click", () => {
 });
 
 document.querySelector(".go").addEventListener("click", () => {
-  window.location.href = "https://accounts.coschedule.com/login";
+  window.location.href = "./login.html";
 });
 
 document.querySelector(".demo").addEventListener("click", () => {
@@ -35,31 +35,31 @@ document.querySelector(".calendar").addEventListener("click", () => {
 // navbar.html me line no.27
 let start_btn = document.getElementById("start");
 start_btn.addEventListener("click", () => {
-  window.location.href = "https://coschedule.com/signup";
+  window.location.href = "./signup.html";
 });
 // end
 
 // navbar =.html me line no.86 page marketing calendar
 document.querySelector(".btn").addEventListener("click", () => {
-  window.location.href = "https://coschedule.com/marketing-calendar";
+  window.location.href = "./marketing_calander.html";
 });
 // end
 
 // navabr.html me line no. 112  marketing Suite
 document.querySelector(".btn1").addEventListener("click", () => {
-  window.location.href = "https://coschedule.com/marketing-suite";
+  window.location.href = "./marketing_suite.html";
 });
 // end
 
 // navbar.html me line no. 140 page  headline studio
 document.querySelector(".btn2").addEventListener("click", () => {
-  window.location.href = "https://coschedule.com/headline-studio";
+  window.location.href = "./headline_studio.html";
 });
 
 // navbar.html me line no.166 page Actionable Marketing Institute
 document.querySelector(".btn3").addEventListener("click", () => {
   window.location.href =
-    "https://coschedule.com/actionable-marketing-institute/ami-pro";
+    "./actionable_marketing.html";
 });
 
 document.querySelector(".chart").addEventListener("click", () => {
@@ -74,7 +74,7 @@ document.querySelector(".size").addEventListener("click", () => {
 
 let get_btn = document.getElementById("get");
 get_btn.addEventListener("click", () => {
-  window.location.href = "https://coschedule.com/signup";
+  window.location.href = "./signup.html";
 });
 
 let sign_div = document.getElementById("sign");

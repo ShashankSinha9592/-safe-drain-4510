@@ -1,6 +1,6 @@
 const navbar=()=>{
     return ` <div id="part1">
-    <a href="./navbar.html"> <img
+    <a href="./index.html"> <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS07cEZ5wJoqGfCPJ1t0MDVSTRBagFtQssIabCrGxA&s"
             alt=""></a>
     <div class="heading">CoSchedule</div>
