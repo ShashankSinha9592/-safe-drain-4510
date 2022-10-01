@@ -14,7 +14,7 @@ explore.addEventListener("mouseover", (e) => {
 });
 
 let btn = document.querySelectorAll("#left button");
-console.log(btn);
+
 // let val = document.querySelector(".");
 btn.forEach((el) => {
   el.addEventListener("click", (e) => {

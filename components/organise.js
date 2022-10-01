@@ -1,4 +1,4 @@
-export const organize = () => {
+export let organize = () => {
   return `<div>
   <img
     src="https://coschedule.com/img/product/marketing-calendar-product-icon.png"

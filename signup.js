@@ -1,7 +1,7 @@
 class User {
   constructor() {}
-  #checkPassword(str) {
-    return str.length >= 8;
+  #checkPassword(str1) {
+    return str1.length >= 8;
   }
   #checkUsername(str) {
     if (

@@ -25,8 +25,8 @@ let data = [
 data.forEach((el) => {
   let div = document.createElement("div");
 
-  let img = document.createElement("img");
-  img.src = el.img;
+  let img1 = document.createElement("img");
+  img1.src = el.img;
 
   let h3 = document.createElement("h3");
   h3.innerText = el.head;
@@ -34,7 +34,7 @@ data.forEach((el) => {
   let p = document.createElement("p");
   p.innerText = el.para;
 
-  div.append(img, h3, p);
+  div.append(img1, h3, p);
 
   document.getElementById("sec-4").append(div);
 });
