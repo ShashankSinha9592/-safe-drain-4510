@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(131,92,229);
+    height: 80vh;
+    margin-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+#absolute{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+#absolute>div{
+    width: 50%;
+    color: white;
+    padding: 20px;
+  
+   
+}
+#absolute img{
+    width: 30%;
+}
+
+
+#absolute>div>h1{
+    margin: 20px;
+    font-size: 2.8vw;
+    line-height: 6vh;
+    letter-spacing: 2px;
+}
+
+#absolute p{
+    margin: 20px;
+    line-height: 3vh;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+#absolute button{
+    padding:13px 20px;
+    border: none;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#sec-1{
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    gap: 30px;
+
+}
+
+#sec-1>div{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+#sec-1 img{
+    width: 100%;
+}
+#sec-2{
+    width: 70vw;
+    margin:50px auto;
+}
+#sec-2>div{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+
+}
+
+#sec-2 img{
+    width: 40%;
+}
+
+#sec-2>div>div{
+width: 50%;
+}
+
+#sec-2 h1{
+    margin: 20px;
+    line-height: 30px;
+}
+
+#sec-2 p{
+    margin: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: rgb(82, 82, 82);
+}
+
+
+#sec-3{
+    width: 70vw;
+    background-color: rgb(131,92,229);
+    color: white;
+    height: 300px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ font-size: 30px;  
+ gap: 20px; 
+ border-radius: 10px;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#sec-3 button{
+    padding: 15px 30px ;
+    border: none;
+    font-weight: bold;
+border-radius: 5px;
+}
+
+
+#sec-4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1, 400px);
+    gap: 20px;
+    width: 70vw;
+    margin:70px auto;
+}
+#sec-4>div{
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#sec-4>div img{
+    width: 100%;
+    margin:0 0 10px 0;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+}
+#sec-4 h3, #sec-4 p{
+    margin: 20px;
+    letter-spacing: 1px;
+    color: rgb(47, 46, 46);
+}
+
+body>h1, body>p{
+    text-align: center;
+    margin: 30px;
+    letter-spacing: 2px;
+    
+
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+#sec-5{
+    width: 70vw;
+    display: grid;
+    margin: auto;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#sec-5 img{
+    width: 50%;
+    margin: auto;
+}
+
+#head{
+    width: 50%;
+    margin:100px 30% 50px 25%;
+
+}
