@@ -59,3 +59,7 @@ class User{
     // localStorage.setItem("users",JSON.stringify(userArr));
     // window.location.href="login.html"
    } 
+
+
+
+   
